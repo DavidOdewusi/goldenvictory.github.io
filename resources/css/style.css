@@ -768,3 +768,9 @@ cite {
 .copy-width p {
     font-size: 80%;
 }
+
+.social-width {
+    width: 19.2%;
+    margin-left: 30%;
+    margin-top: -6px;
+}
