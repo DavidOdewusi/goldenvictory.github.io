@@ -280,6 +280,8 @@ input[type=submit]:hover {
     border: 2px solid #3f3f3f;
 }
 
+/*----MAIN NAVI----*/
+
 nav {
     padding: 5px;
     margin: 0 40px;
@@ -305,6 +307,48 @@ nav {
 
 .nav-header {
     background-color: #22277c;
+}
+
+/*----STICKY NAVI----*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #979797f5;
+    margin-left: 0;
+    padding: 0;
+    z-index: 10;
+    display: none;
+}
+
+.sticky-logo {
+    width: 100%;
+}
+
+.sticky .nav-box {
+    width: 50.2%;
+    margin-top: 35px;
+    font-size: 110%;
+}
+
+.sticky .logo-box {
+    width: 10.79%;
+    margin-right: 2.11%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.sticky .search-box {
+    width: 32.79;
+    margin-left: 1.11%;
+    margin-top: 30px;
+}
+
+.sticky .search-box .search-bar {
+    margin-right: 20px;
 }
 
 /*----THIRD HEADER----*/
