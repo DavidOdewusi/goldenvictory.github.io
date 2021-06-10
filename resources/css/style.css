@@ -376,61 +376,87 @@ nav {
 }
 
 /*---------------------------------------------------------*/
-/*---------APPLY SECTION-----------*/
+/*---------WELCOME-----------*/
 /*---------------------------------------------------------*/
 
-/* .apply-section {
-    width: 80%;
-    margin: 0 10%;
+.welcome {
+    position: relative;
+}
+
+.welcome-background {
+    background-image: url(img/5.jpg);
     position: absolute;
-    margin-top: -50px;
-    background-color: #22277c;
-    padding: 0px;
-    border-top: 4px solid #1b26f8;
-    box-shadow: 0px 3px 3px #555;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: calc(50% + (1180px / 2) - 280px);
+    background-size: cover;
 }
 
-.apply-img {
-    width: 30%;
-    float: left;
+.welcome-background::before {
+    background-color: #1b26f85e;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.apply-text {
-    width: 50%;
-    float: left;
-    padding: 5px;
-    margin: 30px 0 0 40px;
-    color: #f0f0f0;
+.welcome-content {
+    max-width: 1180px;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
 }
 
-.apply-text h3 {
+.welcome-footer {
+    position: relative;
+    margin: 50px 0px 0px 50%;
+    color: #3f3f3f;
+}
+
+.welcome-footer::before {
+    content: "";
+    width: 300px;
+    height: 1px;
+    background-color: #adb5bd;
+    right: calc(100% + 10px);
+    top: 50%;
+    position: absolute;
+};
+
+.welcome-text-header {
+    width: 100%;
+    height: 400px;
+}
+
+.welcome-img {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome-text {
+    padding: 50px;
+    width: 200%;
+}
+
+.welcome-text h4 {
+    margin-bottom: 2px;
+    font-weight: 300;
+    font-size: 110%;
+}
+
+.welcome-text h1 {
+    font-size: 160%;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.apply-text p { 
-    line-height: 120%;
+.welcome-text p {
+    line-height: 145%;
 }
-
-.apply-text a:link,
-.apply-text a:visited {
-    text-decoration: none;
-    color: #f0f0f0;
-    font-weight: bold;
-    position: absolute;
-    right: 70px;
-    bottom: 20px;
-    padding: 10px;
-    border: 2px solid #f0f0f0;
-    transition: background-color 0.2s, color 0.2s, font-weight 0.2s;
-}
-
-.apply-text a:hover,
-.apply-text a:active {
-    background-color: #eeeeee;
-    color: #1b26f8;
-    font-weight: bold;
-} */
 
 /*---------------------------------------------------------*/
 /*---------FEATURE-----------*/
