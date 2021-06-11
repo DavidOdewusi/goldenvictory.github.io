@@ -183,7 +183,7 @@ header{
 } */
 
 .top-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(img/1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(img/1-min.jpg);
     background-size: cover;
     background-position: center;
     color: #1b26f8;
@@ -355,7 +355,7 @@ nav {
 /*----THIRD HEADER----*/
 
 .header-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(img/2-min.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -385,7 +385,7 @@ nav {
 }
 
 .welcome-background {
-    background-image: url(img/5.jpg);
+    background-image: url(img/5-min.jpg);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -436,8 +436,13 @@ nav {
 
 .welcome-text {
     padding: 30px;
-    line-height: 145%;
+    line-height: 165%;
     flex-basis: 180%;
+}
+
+.welcome-text h1 {
+    margin-bottom: 22px;
+    margin-top: 5px;
 }
 
 .line {
@@ -461,7 +466,6 @@ nav {
 .learn-more a {
     text-decoration: none;
     color: #1b26f8;
-    font-weight: bold;
 }
 
 .learn-more i {
@@ -569,7 +573,7 @@ figure a .feature-img:active {
 /*---------------------------------------------------------*/
 
 .our-school {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/3-min.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -642,7 +646,6 @@ figure a .feature-img:active {
 .news-img-3:hover,
 .news-img-1:hover {
     transform: scale(1.05);
-
 }
 
 .news-text {
@@ -729,7 +732,7 @@ figure a .feature-img:active {
 /*---------------------------------------------------------*/
 
 .testimonial {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.178)), url(img/4.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.178)), url(img/4-min.jpg);
     background-position: center;
     background-size: cover;
 }

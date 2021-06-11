@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.js--section-features').waypoint(function(direction) {
+    $('.js--welcome').waypoint(function(direction) {
         if (direction == "down") {
             $('.sticky').css('display', 'block');
         } else {
