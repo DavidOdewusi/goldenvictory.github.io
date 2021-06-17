@@ -673,7 +673,6 @@ figure a .feature-img:active {
 /*---------------------------------------------------------*/
 
 .news-and-event {
-    background-image: url(img/fountaingraphic.svg);
     background-position: calc(100% - 1000px);
 }
 
@@ -916,4 +915,18 @@ cite {
     width: 19.2%;
     margin-left: 30%;
     margin-top: -6px;
+}
+
+/*---------------------------------------------------------*/
+/*---------FOOTER-----------*/
+/*---------------------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2 {
+    opacity: 0;
+}
+
+.js--wp-1 .animate__animated,
+.js--wp-2 .animate__animated {
+    opacity: 1;
 }
