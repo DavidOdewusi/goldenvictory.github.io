@@ -820,6 +820,15 @@ blockquote::before{
 cite {
     display: block;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cite-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 /*---------------------------------------------------------*/
@@ -922,11 +931,21 @@ cite {
 /*---------------------------------------------------------*/
 
 .js--wp-1,
-.js--wp-2 {
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6,
+.js--wp-7 {
     opacity: 0;
 }
 
 .js--wp-1 .animate__animated,
-.js--wp-2 .animate__animated {
+.js--wp-2 .animate__animated,
+.js--wp-3 .animate__animated,
+.js--wp-4 .animate__animated,
+.js--wp-5 .animate__animated,
+.js--wp-6 .animate__animated,
+.js--wp-7 .animate__animated {
     opacity: 1;
 }
