@@ -1,0 +1,51 @@
+
+@media only screen and (max-width: 1400px) {
+    .main-nav li { padding: 16px; }
+    
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .main-nav li { padding: 12px 12px 23px 12px; }
+    .text-box { 
+        max-width: 40%;
+        overflow: scroll;
+    }
+    .event-calendar a:link,
+    .event-calendar a:visited {
+        width: 30%;
+        border-bottom: 0;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-nav { width: 56.2%; }
+    .main-nav li { padding: 11px 11px 21px 11px; }
+    .search-box { width: 30.2%; }
+    .date { font-size: 70%; }
+
+    
+}
+
+@media only screen and (max-width: 1190px) {
+    .main-nav li { padding: 11px 7px 21px 11px; }
+    .sticky .sticky-nav-box { margin-top: 29px;}
+    .event-calendar h3 span { font-size: 80%; }
+    .facebook, .twitter, .google, .instagram { font-size: 160%; }
+    .register-btn a { width: 15%; }
+    .date { padding-bottom: 1px; }
+}
+
+@media only screen and (max-width: 1140px) {
+    .main-nav li { padding: 11px 7px 21px 7px; }
+    .social-nav li { margin-right: 25px; }
+    .welcome-text-header h3 { padding-left: 40px; }
+    
+}
+
+@media only screen and (max-width: 1400px) {
+  
+    
+}
